@@ -1,8 +1,27 @@
-# React + Vite
+# React Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React landing page boilerplate built with the power of Vite for a smooth development experience.
+## Requirements
+Node.js and npm (yarn or bun) installed on your system. Download them from: [Node.Js](https://nodejs.org/en/)
 
-Currently, two official plugins are available:
+## Installation
+first install package with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+or
+yarn install
+or
+bun install
+```
+
+## Usage
+to run
+
+```bash
+npm run dev
+or
+yarn dev
+or
+bun dev
+```
