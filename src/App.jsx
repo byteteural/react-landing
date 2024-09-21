@@ -7,7 +7,7 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <>
+    <div className='font-custom'>
       <Navbar />
       <div className="flex-grow">
         <section id="home" className="min-h-screen"><Home /></section>
@@ -15,7 +15,7 @@ function App() {
         <section id="service" className="min-h-screen"><Service /></section>
         <section id="contact" className="min-h-screen"><Contact /></section>
       </div>
-    </>
+    </div>
   );
 }
 
