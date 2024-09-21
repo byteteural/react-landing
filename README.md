@@ -1,6 +1,6 @@
 # React Landing Page
 
-This project is a React landing page boilerplate built with the power of Vite for a smooth development experience.
+This project is a React landing page with the power of Vite for a smooth development experience.
 ## Requirements
 Node.js and npm (yarn or bun) installed on your system. Download them from: [Node.Js](https://nodejs.org/en/)
 
