@@ -1,0 +1,37 @@
+{
+    "customers": [
+      {
+        "name": "The Bangkok Narathiwas",
+        "image": "thebangkok"
+      },
+      {
+        "name": "Centric Tiwanon Station",
+        "image": "centric"
+      },
+      {
+        "name": "Chambers Cher Ratchada Ramintra",
+        "image": "chamber"
+      },
+      {
+        "name": "Supalai casariwa",
+        "image": "supalai"
+      },
+      {
+        "name": "Ideo Sathorn Thaphra",
+        "image": "ideo"
+      },
+      {
+        "name": "Prime Sukhumvit 11",
+        "image": "prime"
+      },
+      {
+        "name": "Villa Asoke",
+        "image": "villa"
+      },
+      {
+        "name": "Supalai Montala",
+        "image": "montala"
+      }
+    ]
+  }
+  
