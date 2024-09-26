@@ -1,6 +1,11 @@
 import React from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import logo from '../assets/images/logo.png';
+import Home from '../pages/home';
+import About from '../pages/about';
+import Service from '../pages/service';
+import Contact from '../pages/contact';
+import Customer from '../pages/customer';
 
 export default function Navbar() {
   return (
@@ -19,6 +24,7 @@ export default function Navbar() {
             <AnchorLink href="#contact" className="text-slate-950 hover:text-gray-300">Contact</AnchorLink>
           </div>
           <div className="flex items-center" style={{ width: "50px" }}>
+
           </div>
         </div>
         <div className="h-3 bg-gradient-to-l from-orange-300 via-sky-100 to-sky-300 to-90%">
