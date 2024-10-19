@@ -24,9 +24,9 @@ export default function Home() {
           </div>
           <div className="flex items-center mb-4 ml-20 w-2/4 h-2 bg-gradient-to-l from-orange-700 to-orange-500 rounded-md">
           </div>
-          <div className='pl-40'>
+          <div className='pl-40 font-semibold'>
             <AnchorLink href="#contact" className="btn btn-info btn-sm text-slate-950 hover:text-gray-300">Contact</AnchorLink>
-            <p className="flex text-gray-800 pt-4 pb-2"><FaPhone className='mr-2' />02-149-9304, 086-5547-966</p>
+            <p className="flex text-gray-800 pt-4 pb-2"><FaPhone className='mr-2' />02-149-9304 or 086-5547-966</p>
             <p className="flex text-gray-800"><IoMailSharp className='mr-2' />E-mail kisttisak66@gmail.com</p>
           </div>
         </div>

@@ -9,7 +9,7 @@ import Customer from '../pages/customer';
 
 export default function Navbar() {
   return (
-    <div className="font-semibold min-h-screen flex flex-col">
+    <div className="font-semibold flex-col flex items-center justify-center h-screen px-8 py-4">
       <nav className="bg-sky-500 text-center fixed w-full top-0 z-10 opacity-75 hover:opacity-100 duration-300">
         <div className="flex justify-between items-center p-4">
           <a href="/" className="flex items-center">

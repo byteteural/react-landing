@@ -31,3 +31,20 @@ body {
     z-index: -1;
     pointer-events: none;
 }
+
+.App {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.image_wrapper {
+    margin: 0px 30px;
+}
+
+.image_wrapper img {
+    width: 70%;
+}
