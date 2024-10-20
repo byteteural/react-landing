@@ -2,9 +2,8 @@ import './App.css';
 import Home from './pages/home';
 import About from './pages/about';
 import Service from './pages/service';
-import Contact from './pages/contact';
 import Customer from './pages/customer';
-import bgImage from './assets/images/bgfinal.png';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
         <section id="about" className="min-h-screen"><About /></section>
         <section id="service" className="min-h-screen"><Service /></section>
         <section id="customer" className="min-h-screen"><Customer /></section>
-        <section id="contact" className="min-h-screen"><Contact /></section>
+        <Footer />
       </div>
     </div>
   );

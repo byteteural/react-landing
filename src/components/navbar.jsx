@@ -21,7 +21,6 @@ export default function Navbar() {
             <AnchorLink href="#about" className="text-slate-950 hover:text-gray-300">About</AnchorLink>
             <AnchorLink href="#service" className="text-slate-950 hover:text-gray-300">Service</AnchorLink>
             <AnchorLink href="#customer" className="text-slate-950 hover:text-gray-300">Customer</AnchorLink>
-            <AnchorLink href="#contact" className="text-slate-950 hover:text-gray-300">Contact</AnchorLink>
           </div>
           <div className="flex items-center" style={{ width: "50px" }}>
 
