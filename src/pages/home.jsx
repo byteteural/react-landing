@@ -1,4 +1,3 @@
-import React from 'react';
 import ceoImg from '../assets/images/ceoImg.png';
 import Logo from '../assets/images/logo.png';
 import mapBg from '../assets/images/world_map.png';

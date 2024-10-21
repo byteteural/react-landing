@@ -48,3 +48,38 @@ body {
 .image_wrapper img {
     width: 70%;
 }
+
+@media only screen and (max-width: 800px) {
+    .bg-dark {
+        background-color: #dfdfdf;
+    }
+
+    .image_wrapper {
+        margin: 0px 30px;
+    }
+
+    .image_wrapper img {
+        width: 30%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-color: #1d1d1d;
+        color: white;
+    }
+
+    .md\\:block {
+        display: none;
+    }
+
+    .md\\:flex {
+        display: none;
+    }
+
+    .p-4 {
+        padding: 1rem 2rem;
+    }
+}
