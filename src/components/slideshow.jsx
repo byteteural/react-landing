@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import img1 from '../assets/images/centrictiwanon.jpg';
 import img2 from '../assets/images/supalaicasariwa.jpg';
 
@@ -9,7 +9,7 @@ export default function Slideshow() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-        }, 3000); // Slide change every 3 seconds
+        }, 3000);
         return () => clearInterval(interval);
     }, [slides.length]);
 
