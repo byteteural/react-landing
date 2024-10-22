@@ -49,7 +49,14 @@ body {
     width: 60%;
 }
 
-@media only screen and (max-width: 800px) {
+.Overlink {
+    flex: content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
     .bg-dark {
         background-color: #dfdfdf;
     }
@@ -73,5 +80,18 @@ body {
 
     .p-4 {
         padding: 1rem 2rem;
+    }
+
+    .Overlink {
+        flex: content;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .Overfoot {
+        flex: content;
+        justify-content: center;
+        align-items: center;
     }
 }

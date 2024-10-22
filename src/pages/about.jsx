@@ -1,9 +1,8 @@
-import React from 'react';
 import cityImage from '../assets/images/city.avif';
 
 export default function About() {
   return (
-    <div className="bg-dark flex items-center justify-center h-screen px-8 py-4">
+    <div className="bg-dark flex items-center justify-center min-h-screen px-8 py-4">
       <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl w-full space-y-8 md:space-y-0">
         <div className="w-full md:w-1/2">
           <img src={cityImage} alt="City" className="w-full rounded-lg" />

@@ -1,8 +1,7 @@
-import React from 'react'
 
 export default function Service() {
   return (
-    <div className="bg-dark flex items-center justify-center h-screen px-8 py-4">
+    <div className="bg-dark flex items-center justify-center min-h-screen px-8 py-4">
       <div>
         <div className="font-bold text-center">
           <h1 className='badge badge-neutral badge-lg text-lg text-gray-300'>Our services</h1>

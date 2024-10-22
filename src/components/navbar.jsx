@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logo from '../assets/images/logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,75 +11,50 @@ export default function Navbar() {
   };
 
   return (
-    <div className="font-semibold flex-col flex items-center justify-center px-8 mt-10">
-      <nav className="bg-sky-500 text-center fixed w-full top-0 z-10 opacity-75 hover:opacity-100 duration-300">
-        <div className="flex justify-between items-center p-2">
+    <div className="font-semibold flex-col flex items-center justify-center">
+      <nav className="bg-sky-300 fixed w-full top-0 z-10 transition-opacity duration-300 ease-in-out opacity-20 hover:opacity-100 hover:bg-sky-400">
+        <div className="container mx-auto flex justify-between items-center p-2 max-w-7xl">
           <a href="/" className="flex items-center">
             <img src={logo} height={50} width={50} alt="Logo" />
-            <span className="hidden md:block text-lg text-slate-900 font-mono ml-2">NVP Property</span>
+            <span className="hidden md:block text-3xl px-1 font-bold bg-gradient-to-b from-orange-500 via-orange-400 to-orange-300 bg-clip-text text-transparent leading-normal">NVP</span>
           </a>
-          <button
+          <GiHamburgerMenu
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="md:hidden text-gray-500 w-10 h-10 p-2 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-default"
             aria-expanded={menuOpen}
             onClick={handleToggleMenu}
-          >
-            <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button>
-          <div
-            id="navbar-default"
-            className={`${menuOpen ? 'block' : 'hidden'
-              } w-full md:flex md:justify-center space-y-4 md:space-y-0 md:space-x-8 mt-4 md:mt-0 md:w-auto pr-32`}
-          >
-            <Link smooth to="#home" className="block text-slate-950 hover:text-gray-300">
-              Home
-            </Link>
-            <Link smooth to="#about" className="block text-slate-950 hover:text-gray-300">
-              About
-            </Link>
-            <Link smooth to="#service" className="block text-slate-950 hover:text-gray-300">
-              Service
-            </Link>
-            <Link smooth to="#customer" className="block text-slate-950 hover:text-gray-300">
-              Customer
-            </Link>
+          />
+          <div className="hidden md:flex space-x-8 pr-32">
+            <Link smooth to="#home">Home</Link>
+            <Link smooth to="#about">About</Link>
+            <Link smooth to="#service">Service</Link>
+            <Link smooth to="#customer">Customer</Link>
           </div>
         </div>
-        <div className="h-3 bg-gradient-to-l from-orange-300 via-sky-100 to-sky-300 to-90%"></div>
-        {menuOpen && (
-          <div className="md:hidden bg-sky-500 opacity-90 text-center shadow-lg">
-            <div className="py-2">
-              <Link smooth to="#home" className="block py-2 text-slate-950 hover:text-gray-300">
-                Home
-              </Link>
-              <Link smooth to="#about" className="block py-2 text-slate-950 hover:text-gray-300">
-                About
-              </Link>
-              <Link smooth to="#service" className="block py-2 text-slate-950 hover:text-gray-300">
-                Service
-              </Link>
-              <Link smooth to="#customer" className="block py-2 text-slate-950 hover:text-gray-300">
-                Customer
-              </Link>
-            </div>
+
+        {/*Overlay Menu */}
+        <div className={`fixed inset-0 z-20 bg-gradient-to-t from-slate-300 to-sky-400 text-white flex flex-col justify-center items-center transition-transform duration-500 ease-in-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+          <button
+            type="button"
+            className="absolute top-4 right-4 text-3xl"
+            onClick={handleToggleMenu}
+          >
+            &times;
+          </button>
+          <div className="flex flex-col items-center space-y-8 text-4xl font-semibold ">
+            <Link smooth to="#home" onClick={handleToggleMenu}>Home</Link>
+            <Link smooth to="#about" onClick={handleToggleMenu}>About</Link>
+            <Link smooth to="#service" onClick={handleToggleMenu}>Service</Link>
+            <Link smooth to="#customer" onClick={handleToggleMenu}>Customer</Link>
           </div>
-        )}
+          <div className="mt-16 text-center text-gray-900">
+            <span className="text-4xl font-bold bg-gradient-to-b from-orange-500 via-orange-400 to-orange-300 bg-clip-text text-transparent">NVP</span>
+            <span className="block text-xl font-bold">PROPERTY</span>
+            <span className="block text-xs font-mono text-slate-500 mt-6">© 2024 NVP Property Co., Ltd. All rights reserved.</span>
+          </div>
+        </div>
+        <div className="h-3 bg-gradient-to-l from-orange-300 via-sky-100 to-sky-300"></div>
       </nav>
     </div>
   );
