@@ -25,7 +25,7 @@ export default function Navbar() {
             aria-expanded={menuOpen}
             onClick={handleToggleMenu}
           />
-          <div className="hidden md:flex space-x-8 pr-32">
+          <div className="hidden md:flex space-x-8 pr-32 text-slate-900">
             <Link smooth to="#home">Home</Link>
             <Link smooth to="#about">About</Link>
             <Link smooth to="#service">Service</Link>

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='font-custom'>
       <div className="flex-grow">
-        <section id="home" className="min-h-screen"><Home /></section>
+        <section id="home" className=""><Home /></section>
         <section id="about" className="min-h-screen"><About /></section>
         <section id="service" className="min-h-screen"><Service /></section>
         <section id="customer" className="min-h-screen"><Customer /></section>
