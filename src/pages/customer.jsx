@@ -9,11 +9,11 @@ import img7 from '../assets/logo/TCCCapitaLand.png';
 
 export default function Customer() {
     return (
-        <div className="bg-dark flex items-center justify-center py-12 px-4 min-h-screen">
+        <div className="bg-dark flex items-center justify-center px-4 min-h-fit py-48">
             <div className="w-full max-w-screen-2xl">
                 <div className="font-bold text-center">
-                    <h1 className="badge badge-neutral badge-lg text-lg text-gray-300">Our Partner</h1>
-                    <h1 className="text-xl text-gray-900 pt-2">คู่ค้าของเรา</h1>
+                    <h1 className="badge badge-neutral badge-lg text-lg text-gray-300 opacity-75">Our Customer</h1>
+                    <h1 className="text-xl text-gray-900 pt-2">ลูกค้าของเรา</h1>
                 </div>
                 {/* <div className="relative flex overflow-hidden py-5 group"> */}
                 <div className="flex justify-center pt-8">

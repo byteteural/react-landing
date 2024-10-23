@@ -1,10 +1,11 @@
 import Logo from '../assets/images/logo.png';
 import mapBg from '../assets/images/world_map.png';
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Let } from 'react-router-hash-link';
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div style={{ backgroundImage: `url(${mapBg})` }} className='bg-dark min-h-fit flex items-center justify-center py-36'>
+    <div style={{ backgroundImage: `url(${mapBg})` }} className='bg-dark bg-welcome min-h-fit flex items-center justify-center py-36'>
       <div className="container text-center px-4 sm:px-8">
         <div className="row items-center justify-center">
           <div className="col mx-auto lg:w-8/12">
@@ -17,8 +18,8 @@ export default function Home() {
             </div>
             <p className="mb-5 leading-6 text-muted text-slate-800 font-semibold text-sm sm:text-base md:text-lg">มุ่งมั่น สร้างสรรค์มี ประสิทธิภาพ</p>
             <div className="inline-flex flex-col md:flex-row justify-center gap-x-2 gap-y-3 mb-3">
-              <Link smooth to="#about" className="btn btn-primary btn-md">about us ➔</Link>
-              <Link smooth to="#contact" className="btn btn-md btn-info btn-outline">contact us</Link>
+              <Let smooth to="#about" className="btn btn-primary btn-md">เพิ่มเติม</Let>
+              <Link to="/contact" className="btn btn-md btn-info btn-outline">ติดต่อ ➔</Link>
             </div>
           </div>
         </div>

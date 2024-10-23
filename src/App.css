@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
+.bg-welcome {
+    background-size: 50%;
+    background-repeat: repeat-x;
+    background-position-y: 4rem;
+}
+
 .bg-dark {
     background-color: #dfdfdf;
 }
@@ -93,5 +99,12 @@ body {
         flex: content;
         justify-content: center;
         align-items: center;
+    }
+
+    .bg-welcome {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 10rem;
     }
 }
