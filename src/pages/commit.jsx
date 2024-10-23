@@ -1,6 +1,6 @@
-import img1 from '../assets/images/creative.png'
-import img2 from '../assets/images/visualization.png'
-import img3 from '../assets/images/productive.png'
+import img1 from '../assets/images/creative.jpg'
+import img2 from '../assets/images/visualization.jpg'
+import img3 from '../assets/images/productive.jpg'
 
 export default function Commitment() {
     return (
@@ -15,12 +15,12 @@ export default function Commitment() {
                         <figure className="px-10 pt-10 hidden md:flex justify-center relative overflow-hidden">
                             <img
                                 src={img1}
-                                alt="Shoes"
-                                className="rounded-xl md:w-[1300px] w-full h-full object-cover" />
+                                alt=""
+                                className="rounded-md md:w-[1300px] w-full h-full object-cover opacity-90 border-2 border-cyan-200 outline outline-offset-8 outline-cyan-300" />
                             <div className="absolute inset-0 bg-gradient-to-t from-gray-50 via-transparent via-30% z-10 " />
                         </figure>
                         <div className='card-body'>
-                            <div className='badge badge-primary badge-outline'>nature</div>
+                            <div className='badge badge-accent badge-outline'>nature</div>
                             <p className="card-title">มุ่งมั่น</p>
                             <p className="text-balance text-sm">มุ่งมั่นเป็นส่วนหนึ่งในการสร้างอนาคตที่สดใสให้กับคุณ เน้นการสร้างความมั่นคงและความสุขให้กับลูกค้าในระยะยาว</p>
                         </div>
@@ -30,12 +30,12 @@ export default function Commitment() {
                         <figure className="px-10 pt-10 hidden md:flex justify-center relative overflow-hidden">
                             <img
                                 src={img2}
-                                alt="Shoes"
-                                className="rounded-xl md:w-[1300px] w-full h-full object-cover" />
+                                alt=""
+                                className="rounded-md md:w-[1300px] w-full h-full object-cover opacity-90 border-2 border-cyan-200 outline outline-offset-8 outline-cyan-300" />
                             <div className="absolute inset-0 bg-gradient-to-t from-gray-50 via-transparent via-30% z-10 " />
                         </figure>
                         <div className='card-body'>
-                            <div className='badge badge-primary badge-outline'>visualization</div>
+                            <div className='badge badge-accent badge-outline'>visualization</div>
                             <p className="card-title">สร้างสรรค์</p>
                             <p className="text-balance text-sm">สร้างสรรค์นวัตกรรมที่อยู่อาศัย ตอบโจทย์ทุกความต้องการ เน้นการนำเทคโนโลยีและวัสดุใหม่ๆ มาใช้ในการก่อสร้าง</p>
                         </div>
@@ -45,12 +45,12 @@ export default function Commitment() {
                         <figure className="px-10 pt-10 hidden md:flex justify-center relative overflow-hidden">
                             <img
                                 src={img3}
-                                alt="Shoes"
-                                className="rounded-xl md:w-[1300px] w-full h-full object-cover" />
+                                alt=""
+                                className="rounded-md md:w-[1300px] w-full h-full object-cover opacity-90 border-2 border-cyan-200 outline outline-offset-8 outline-cyan-300" />
                             <div className="absolute inset-0 bg-gradient-to-t from-gray-50 via-transparent via-30% z-10 " />
                         </figure>
                         <div className='card-body'>
-                            <div className='badge badge-primary badge-outline'>productive</div>
+                            <div className='badge badge-accent badge-outline'>productive</div>
                             <p className="card-title">ประสิทธิภาพ</p>
                             <p className="text-balance text-sm">มอบประสบการณ์การอยู่อาศัยที่เหนือกว่า ด้วยมาตรฐานระดับโลก เน้นคุณภาพและมาตรฐานในการทำงาน</p>
                         </div>
