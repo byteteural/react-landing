@@ -16,7 +16,7 @@ export default function Experience() {
                 </div>
                 <div className="col md:w-8/12 mx-auto text-center mb-8">
                     <p className="text-lg font-light text-gray-900">
-                        เรามีประสบการณ์มากมายในการพัฒนาด้านอสังหาที่พร้อมตอบสนองความต้องการของลูกค้า
+                        เรามีประสบการณ์มากมายที่พร้อมตอบสนองความต้องการของลูกค้า และนี่คือโครงการบางส่วนที่เราได้รับมอบหมายให้ดูแลและจัดการ
                     </p>
                 </div>
                 <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-900 font-semibold text-lg px-4 justify-items-center">
