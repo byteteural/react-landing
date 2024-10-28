@@ -1,10 +1,17 @@
+import React, { useLayoutEffect } from 'react';
 import { IoLocationSharp, IoChatboxEllipsesOutline } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import mapBg from '../assets/images/world_map.png';
 
 export default function Contact() {
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  });
+
   return (
-    <div className="bg-dark">
-      <div className=" flex items-center justify-center min-h-fit py-32 text-white">
+    <div style={{ backgroundImage: `url(${mapBg})` }} className="bg-dark font-custom pt-4">
+      <div className=" flex items-center justify-center min-h-fit py-20 text-white">
         <div className="container text-center">
           <div className="mb-12">
             <h1 className="badge badge-neutral badge-lg text-lg text-gray-300 opacity-75">Contact us</h1>
@@ -13,15 +20,15 @@ export default function Contact() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div className="flex flex-col items-center">
-              <div className="rounded-full w-16 h-16 bg-primary flex items-center justify-center mb-4">
+              <div className="rounded-full w-16 h-16 bg-white flex items-center justify-center mb-4">
                 <BsFillTelephoneFill className="text-white text-3xl" />
               </div>
               <h4 className="font-semibold mb-2">โทรศัพท์</h4>
               <p>02-149-9304</p>
               <p>086-554-7966</p>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="rounded-full w-16 h-16 bg-primary flex items-center justify-center mb-4">
+            <div className="flex flex-col items-center border-gray-400 border-x-2">
+              <div className="rounded-full w-16 h-16 bg-white flex items-center justify-center mb-4">
                 <IoLocationSharp className="text-white text-3xl" />
               </div>
               <h4 className="font-semibold mb-2">สำนักงาน</h4>
@@ -30,7 +37,7 @@ export default function Contact() {
               <p>อำเภอบางบัวทอง จังหวัด นนทบุรี 11110</p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="rounded-full w-16 h-16 bg-primary flex items-center justify-center mb-4">
+              <div className="rounded-full w-16 h-16 bg-white flex items-center justify-center mb-4">
                 <IoChatboxEllipsesOutline className="text-white text-3xl" />
               </div>
               <h4 className="font-semibold mb-2">ช่องทางติดต่ออื่น</h4>
@@ -38,7 +45,7 @@ export default function Contact() {
                 E-mail: <a href="mailto:kisttisak66@gmail.com" className="text-blue-400">kisttisak66@gmail.com</a>
               </p>
               <p>
-                Line: <a href="https://line.me/ti/p/~0865547966" className="text-blue-400">@NVPkisttisak</a>
+                Line: <a href="https://line.me/ti/p/~0865547966" className="text-blue-400">0865547966</a>
               </p>
             </div>
           </div>

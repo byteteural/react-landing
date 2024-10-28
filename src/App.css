@@ -122,4 +122,8 @@ ol {
         background-position: center;
         background-position-y: 10rem;
     }
+
+    .overlay {
+        opacity: 100%;
+    }
 }

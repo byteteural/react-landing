@@ -12,7 +12,10 @@ export default function Footer() {
                     บริษัท เอ็น วี พี พร็อพเพอร์ตี้  จำกัด สำนักงานใหญ่<br />
                     72/51 หมู่ที่ 2 ถนนบางกรวย-ไทรน้อย ตำบลบางบัวทอง <br />
                     อำเภอบางบัวทอง จังหวัด นนทบุรี 11110<br />
-                    โทรศัพท์ 02-149-9304, 086-554-7966 E-mail kisttisak66@gmail.com
+                    โทรศัพท์ 02-149-9304, 086-554-7966
+                    <p>
+                        E-mail: <a href="mailto:kisttisak66@gmail.com" className="text-blue-400">kisttisak66@gmail.com</a>
+                    </p>
                 </p>
             </div>
             <div className="mt-4 text-center text-xs md:text-sm font-mono">

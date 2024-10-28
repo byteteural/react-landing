@@ -55,7 +55,7 @@ export default function Commitment() {
                             <p className="text-balance text-sm">มอบประสบการณ์การอยู่อาศัยที่เหนือกว่า ด้วยมาตรฐานระดับโลก เน้นคุณภาพและมาตรฐานในการทำงาน</p>
                         </div>
                     </div>
-                    <div className='flex text-wrap tracking-wide'>
+                    <div className='flex text-wrap tracking-wide pt-10'>
                         <blockquote className="text-2xl font-semibold italic text-center text-slate-900">
                             เราให้บริการด้วยความเป็น
                             <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-sky-400 relative m-3 inline-block">
