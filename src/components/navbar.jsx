@@ -26,10 +26,10 @@ export default function Navbar() {
             onClick={handleToggleMenu}
           />
           <div className="hidden md:flex space-x-8 pr-1 text-slate-900 font-custom">
-            <Let smooth to="#home">Home</Let>
-            <Let smooth to="#about">About</Let>
-            <Let smooth to="#service">Service</Let>
-            <Let smooth to="#customer">Customer</Let>
+            <Let smooth to="/#home">Home</Let>
+            <Let smooth to="/#about">About</Let>
+            <Let smooth to="/#service">Service</Let>
+            <Let smooth to="/#experience">Experience</Let>
             <Link to="/contact">Contact</Link>
           </div>
         </div>
@@ -43,11 +43,11 @@ export default function Navbar() {
           >
             &times;
           </button>
-          <div className="flex flex-col items-center space-y-8 text-4xl font-semibold ">
-            <Let smooth to="#home" onClick={handleToggleMenu}>Home</Let>
-            <Let smooth to="#about" onClick={handleToggleMenu}>About</Let>
-            <Let smooth to="#service" onClick={handleToggleMenu}>Service</Let>
-            <Let smooth to="#customer" onClick={handleToggleMenu}>Customer</Let>
+          <div className="flex flex-col items-center space-y-8 text-4xl font-custom font-semibold">
+            <Let smooth to="/#home" onClick={handleToggleMenu}>Home</Let>
+            <Let smooth to="/#about" onClick={handleToggleMenu}>About</Let>
+            <Let smooth to="/#service" onClick={handleToggleMenu}>Service</Let>
+            <Let smooth to="/#experience" onClick={handleToggleMenu}>Experience</Let>
             <Link to="/contact" onClick={handleToggleMenu}>Contact</Link>
           </div>
           <div className="mt-16 text-center text-gray-900">

@@ -29,12 +29,6 @@ export default function Customer() {
                                 <img src={img1} alt="Ananda Partner" className="md:h-2/5" loading="lazy" />
                             </div>
                             <div className="image_wrapper mx-6">
-                                <img src={img2} alt="CapitaLand Partner" className="md:h-2/5" loading="lazy" />
-                            </div>
-                            <div className="image_wrapper mx-6">
-                                <img src={img3} alt="Fragant Partner" className="md:h-2/5" loading="lazy" />
-                            </div>
-                            <div className="image_wrapper mx-6">
                                 <img src={img4} alt="Land and House Partner" className="md:h-2/5" loading="lazy" />
                             </div>
                             <div className="image_wrapper mx-6">
@@ -43,9 +37,15 @@ export default function Customer() {
                             <div className="image_wrapper mx-6">
                                 <img src={img6} alt="Supalai Partner" className="md:h-2/5" loading="lazy" />
                             </div>
+                            {/* <div className="image_wrapper mx-6">
+                                <img src={img2} alt="CapitaLand Partner" className="md:h-2/5" loading="lazy" />
+                            </div>
+                            <div className="image_wrapper mx-6">
+                                <img src={img3} alt="Fragant Partner" className="md:h-2/5" loading="lazy" />
+                            </div>
                             <div className="image_wrapper mx-6">
                                 <img src={img7} alt="TCC CapitaLand Partner" className="md:h-2/5" loading="lazy" />
-                            </div>
+                            </div> */}
                         </Marquee>
                     </div>
                 </div>
